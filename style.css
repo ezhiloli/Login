@@ -1,0 +1,151 @@
+
+
+body{
+	background-image: url(images/Background.png);
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: 0.9;
+}
+.container{
+	height: 70vh;
+	width: 50vw;
+	margin: auto;
+	position: relative;
+	top: 15vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.gradient{
+	background-color: #003142;
+	margin-bottom: 0px;
+}
+.login{
+	background-color:#fefefe;
+	padding-left: 3.5vw;
+	padding-right: 3.5vw;
+}
+
+.heading h3{
+	color: white;
+	text-align: center;
+	font-size: 1.6rem;
+	padding-left:-15px;
+	font-family: sans-serif;
+	margin-bottom: 0px;
+}
+.heading p{
+	margin-top: 5px;
+	color: lightgrey;
+	text-align: center;
+}
+#image img{
+	height: 60vh;
+	width: 25vw;
+	position: relative;
+	top: -5.5vh;
+}
+#log-container h2{
+	color: black;
+	font-family: sans-serif;
+}
+#log-container{
+	height: 100%;
+}
+.email-password label{
+	font-size: 1.1rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-top: 2vh;
+}
+.email-password input{
+	margin-bottom: 3vh;
+	margin-top: 2vh;
+	display: block;
+	width: 90%;
+	padding: 10px;
+}
+
+
+
+button{
+	margin: auto;
+	display: block;
+	padding: 10px;
+	margin-top: 3vh;
+	width: 95%;
+	color: white;
+	background-color:#003142;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+	body{
+		background-color: #003142;
+	}
+	.heading h3,p{
+		text-align: center;
+		color: white;
+	}
+	#image img{
+		height: 65vh;
+		width: 90vw;
+		margin-top: -20vh;
+	}
+
+	.login{
+		width: 100vw;
+		height: 55vh;
+		margin-top: -3vh;
+		margin-left: -1vw;
+		background-color: #fefefe;
+		padding-left: 3.5vw;
+		padding-right: 3.5vw;
+
+	}
+
+	#log-container h2{
+		padding-left: 3vw;
+		padding-top: 3vh;
+	}
+	.email-password label,input{
+		display: block;
+		margin-left: 3vw;
+	}
+	.email-password label{
+		margin-top: 2vh;
+		margin-bottom: 2vh;
+	}
+	.email-password input{
+		padding: 10px;
+		width: 80%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin-bottom: 3vh;
+	}
+	button{
+		padding: 10px;
+		width: 80%;
+		margin: auto;
+		margin-top: 2vh;
+		margin-left: 5vw;
+		background-color: #003142;
+		color: white;
+	}
+	input[type="checkbox"]{
+		display: inline;
+		padding-left: 3vw;
+	}
+	input[type="checkbox"] label{
+		padding-left: 5vw;
+	}
+
+
+}
